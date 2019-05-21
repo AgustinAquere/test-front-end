@@ -1,0 +1,181 @@
+*,
+   *:before,
+   *:after {
+     box-sizing: border-box;
+   }
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #EEEEEE;
+}
+.nav-search {
+    position: sticky;
+    top: -1px;
+    background-color: #FFE600;
+}
+
+.logo{
+    position: absolute;
+    left: 15%;
+    margin: 5px;
+}
+.search{
+    position: relative;
+    text-align: center;
+    padding: 5px;
+    width: 60%;
+    margin: 0 auto;
+    height: 50px;
+}
+
+.buttonSearch{
+    background: url(../Assets/ic_Search.png);
+    background-repeat: no-repeat;
+    background-color: #EEEEEE;
+    background-position: center;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+input {
+    border: 0;
+    height: 40px;
+    width: 40px;
+  }
+.input-search{
+    font-size: 18px;
+    width: 100%;
+     padding: 5px 50px 5px 15px;
+}
+
+.content-items{
+    margin-top: 5%;
+    margin-left: 12%;
+    width: 70%;
+}
+
+li{
+    display: block;
+    background-color: #ffffff;
+    width: 100%;
+    height: 180px;
+    list-style: none;
+    margin: 1px auto;
+    cursor: pointer;
+    font-family: helvetica;
+}
+
+.item-logo{
+    float: left;
+    padding: 16px;
+    width: 180px;
+    height: 180px;
+    border-radius: 4px;
+
+}
+
+.data-item{
+    padding: 16px;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+.price{
+    display: block;
+    margin-bottom: 32px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.title{
+    display: block;
+    font-size: 18px;
+    color: #333333;
+}
+
+.address{
+    float: right;
+    font-size: 12px;
+    color: #999999
+}
+
+
+.item-description{
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: #ffffff;
+    width: 70%;
+}
+
+.img-description{
+    float: left;
+    width: 680px;
+    height: 680px;
+}
+.div-input,
+.content-description{
+    margin: auto;
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+    font-family: helvetica;
+}
+
+.price-description{
+    display: block;
+    float: left;
+    color: #333333;
+    padding-top: 32px;
+    padding-bottom: 32px; 
+    font-size: 46px;
+}
+
+.title-description{
+    display: block;
+    float: left;
+    color: #333333;
+    font-size: 24px;
+}
+
+.sold-description,
+.condition-description{
+    float: left;
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 16px;
+    padding-top: 32px;
+}
+
+
+.comprar{
+    background-color: #3483FA;
+    width: 100%;
+    border-radius: 4px;
+    color: #EEEEEE;
+    font-size: 14px;
+}
+
+.content-text{
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+    padding-left: 32px;
+    font-family: helvetica;
+}
+
+
+.text-item{
+    font-size: 14px;
+    margin: auto;
+    color: #999999;
+    padding-bottom: 32px;
+}
+
+h2{
+    padding-bottom: 32px;
+    font-size: 28px;
+    margin: auto;
+}
+
