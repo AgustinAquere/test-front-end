@@ -32,7 +32,6 @@ app.get("/api/items", (req, res) => {
 app.get("/api/items/:id", (req, res) => {
     var query = req.params.id;
     var urlItem = "https://api.mercadolibre.com/items/" + query;
-    // var urlItemDescript = "https://api.mercadolibre.com/items/" + query + "/description"
     https.get(urlItem, (resp) => {
         var data = "";
         resp.on("data", (chunk) => {
@@ -42,15 +41,6 @@ app.get("/api/items/:id", (req, res) => {
             res.send(data)
         })
     })
-    // https.get(urlItemDescript, (respuesta) => {
-    //     var info = "";
-    //     respuesta.on("info", (chunk) => {
-    //         info += chunk;
-    //     });
-    //     respuesta.on("end", () => {
-    //         respuesta.send(info)
-    //     })
-    // })
 })
 app.get("/api/items/:id/description", (req, res)=>{
     var query = req.params.id
